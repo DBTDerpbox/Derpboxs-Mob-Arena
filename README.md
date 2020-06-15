@@ -1,4 +1,4 @@
-# Mob Arena
+# Derpbox's Mob Arena
 
 Mob Arena is a game with multiple arenas where you fight waves of mobs with a twist in every arena!
 
