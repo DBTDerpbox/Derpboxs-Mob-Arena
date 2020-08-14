@@ -25,4 +25,4 @@ Mob Arena is currently designed for [Minecraft Java Edition 1.16.2](https://www.
 ## Authors
 
 * **Derpbox** - *Datapack Developer* - [Derpbox](https://github.com/dbtderpbox)
-* **FighterFist/Discobot** - *Builder* [Discobot](https://github.com/disco-b0t)
+* **FighterFist/Discobot** - *Builder* - [Discobot](https://github.com/disco-b0t)
