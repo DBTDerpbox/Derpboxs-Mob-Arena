@@ -1,10 +1,10 @@
-#End the enemy spawning loop
+##End the enemy spawning loop
 schedule function mobarena:ma1/end/clear 2t
 
-#Remove all MA1 Enemies
+##Remove all MA1 Enemies
 function mobarena:ma1/end/removemobs
 
-#Remove the core tag MA1Run to mark that the game has ended and a new one is ready to start
+##Remove the core tag MA1Run to mark that the game has ended and a new one is ready to start
 tag @e[type=minecraft:area_effect_cloud,tag=core,tag=MA1Run] remove MA1Run
 
 ##Tellraw
