@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+
+  "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/ma1/upgrade_diamond_sword"},
+    {"predicate": {"custom_model_data":2}, "model": "item/ma1/upgrade_bow"},
+    {"predicate": {"custom_model_data":3}, "model": "item/ma1/upgrade_crossbow"},
+    {"predicate": {"custom_model_data":4}, "model": "item/ma1/upgrade_arrow"},
+    {"predicate": {"custom_model_data":5}, "model": "item/upgrade_back"},
+    {"predicate": {"custom_model_data":6}, "model": "item/upgrade_weapons"}
+  ]
+}
