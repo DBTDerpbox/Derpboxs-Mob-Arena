@@ -6,6 +6,6 @@ function mobarena:ma1/spawn/enemy/spider/load
 
 ##Tellraw
 #Informs MA1 users that 5 spiders have spawned
-tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"5 Spiders! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"5 Spiders","color":"red"},{"text":"! have spawned!","color":"green"}]
 #Informs MA1 spectators that 5 spiders have spawned
-tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"5 Spiders! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"5 Spiders","color":"red"},{"text":"! have spawned!","color":"green"}]

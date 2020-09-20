@@ -8,6 +8,6 @@ function mobarena:ma1/spawn/enemy/creeper/load
 
 ##Tellraw
 #Informs MA1 users that 2 creepers have spawned
-tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"2 Creepers! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"2 Creepers","color":"red"},{"text":"! have spawned!","color":"green"}]
 #Informs MA1 spectators that 2 creepers have spawned
-tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"2 Creepers! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"2 Creepers","color":"red"},{"text":"!  have spawned!","color":"green"}]

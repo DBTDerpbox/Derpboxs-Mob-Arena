@@ -6,6 +6,6 @@ function mobarena:ma1/spawn/enemy/slime/load
 
 ##Tellraw
 #Informs MA1 users that 3 slimes have spawned
-tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"3 Slimes! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"3 Slimes","color":"red"},{"text":"! have spawned!","color":"green"}]
 #Informs MA1 spectators that 3 slimes have spawned
-tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"3 Slimes! ","color":"dark_green"},{"text":"have spawned!","color":"green"}]
+tellraw @a[team=MA1Spectate] ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"3 Slimes","color":"red"},{"text":"! have spawned!","color":"green"}]
