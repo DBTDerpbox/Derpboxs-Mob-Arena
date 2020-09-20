@@ -1,2 +1,11 @@
-execute as @a[team=MA1] if score @s ma1upgradeself > @s ma1upgradereq run function mobarena:ma1/upgrades/food/apple
-schedule function mobarena:ma1/upgrades/runner 10t
+##Tools
+#Open page tools
+execute as @a[scores={upgrade.page=0,upgrade.select=8}] run function mobarena:ma1/upgrades/pages/tool/open
+#Redirect users on tool page to tools runner
+execute as @a[scores={upgrade.page=1}] run function mobarena:ma1/upgrades/pages/tool/runner
+
+##Food
+#Open page food
+execute as @a[scores={upgrade.page=0,upgrade.select=7}] run function mobarena:ma1/upgrades/pages/food/open
+#Redirect users on tool page to food runner
+execute as @a[scores={upgrade.page=2}] run function mobarena:ma1/upgrades/pages/food/runner
