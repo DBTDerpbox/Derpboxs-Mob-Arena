@@ -13,8 +13,14 @@ function mobarena:ma1/setup/inventory/items
 #Armor
 function mobarena:ma1/setup/inventory/armor
 
-#Scoteboard
-scoreboard players set @s MobKills 0
+#Scoreboard
+function mobarena:ma1/setup/scores
+
+##Leave current team
+team leave @s
+
+##Inform everyone that the user has joined Mob Arena
+tellraw @a ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"selector":"@s","color":"gold"},{"text":" has joined ","color":"green"},{"text":"Mob Arena 1","color":"dark_green"},{"text":"!","color":"green"}]
 
 #Team
 team join MA1
