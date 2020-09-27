@@ -12,3 +12,5 @@ function mobarena:ma1/spawn/enemy/enemypick
 schedule function mobarena:ma1/eliminate/check 10t
 #Checks for if everyone has been eliminated
 schedule function mobarena:ma1/end/check 10t
+#Checks for broken slimes
+function mobarena:ma1/spawn/enemy/slimefix/runner

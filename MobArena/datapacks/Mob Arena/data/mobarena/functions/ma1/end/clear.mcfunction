@@ -9,6 +9,8 @@ schedule clear mobarena:ma1/eliminate/check
 schedule clear mobarena:ma1/end/check
 #Stops checking for if all mobs are been killed
 schedule clear mobarena:ma1/spawn/enemy/timeroverride/check
+#Stops checking for broken slimes
+schedule clear mobarena:ma1/spawn/enemy/slimefix/runner
 
 ##Informs debug users that this function has ran
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"Cleared MA1 schedules","color":"gold"}]
