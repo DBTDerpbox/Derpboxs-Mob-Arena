@@ -5,7 +5,7 @@ gamemode adventure @s
 execute in overworld run tp @s 4968.27 15.00 5005.03 -97.43 11.10
 
 #Spawnpoint
-spawnpoint @s 4967 21 4996
+spawnpoint @s 5003 22 5008
 
 ##Inventory Setup
 #Items
