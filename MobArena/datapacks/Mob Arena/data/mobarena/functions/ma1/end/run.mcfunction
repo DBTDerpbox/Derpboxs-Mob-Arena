@@ -8,7 +8,7 @@ function mobarena:ma1/end/removemobs
 tag @e[type=minecraft:area_effect_cloud,tag=core,tag=MA1Run] remove MA1Run
 
 ##Send all players to lobby
-execute as @a[team=MA1Spectate] run function mobarena:ma1/end/leave
+execute as @a[team=MA1Spectate] run function mobarena:core/game/end/leave
 
 ##Tellraw
 #Announce that MA1 has ended
