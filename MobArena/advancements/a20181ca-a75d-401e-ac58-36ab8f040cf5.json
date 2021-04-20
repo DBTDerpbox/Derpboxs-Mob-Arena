@@ -293,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2021-02-21 16:06:16 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2020-05-18 06:49:39 -0500"
@@ -443,6 +449,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2021-02-21 16:03:52 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-05-18 06:50:44 -0500"
@@ -524,6 +536,12 @@
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2020-05-18 06:50:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2021-02-21 17:35:33 -0600"
     },
     "done": true
   },
@@ -1044,6 +1062,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2021-02-21 16:06:16 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magenta_stained_glass": {
     "criteria": {
       "has_glass": "2020-05-18 06:50:44 -0500"
@@ -1122,5 +1146,5 @@
     },
     "done": true
   },
-  "DataVersion": 2580
+  "DataVersion": 2584
 }
