@@ -8,7 +8,7 @@ This version of Mob Arena requires a resource pack! you can find it in the [serv
 
 This branch is incredibly unstable! Expect issues!
 
-Mob Arena is currently designed for [Minecraft Java Edition 1.16.3](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-3)
+Mob Arena is currently designed for [Minecraft Java Edition 1.16.5](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-3)
 
 ## Authors
 
