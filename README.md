@@ -2,7 +2,8 @@
 
 Mob Arena is a game with multiple arenas where you fight waves of mobs with a twist in every arena!
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-80ba42?style=for-the-badge) [![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-80ba42?style=for-the-badge)
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
 
 ### Notices
 
