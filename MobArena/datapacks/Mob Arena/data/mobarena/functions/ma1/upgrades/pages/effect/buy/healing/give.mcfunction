@@ -11,4 +11,4 @@ xp add @s -1 levels
 execute at @s run playsound minecraft:entity.villager.yes neutral @s ~ ~ ~ 100
 
 ##Inform the user that they have received their item
-tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"Purchased ","color":"green"},{"text":"Instant Health II","color":"gold"},{"text":" for ","color":"green"},{"text":"1 XP Level","color":"dark_green"},{"text":"!","color":"green"}]
+tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"Purchased ","color":"green"},{"text":"Instant Health II","color":"gold"},{"text":" for ","color":"green"},{"text":"3 XP Levels","color":"dark_green"},{"text":"!","color":"green"}]

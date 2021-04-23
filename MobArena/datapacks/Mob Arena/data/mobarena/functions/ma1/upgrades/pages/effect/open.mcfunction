@@ -8,7 +8,7 @@ scoreboard players set @s upgrade.page 3
 #Go Back
 replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:5,display:{Name:'{"text":"Go Back","color":"red","bold":true,"italic":false}'}} 1
 #Healing
-replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:4,display:{Name:'[{"text":"Potion of Healing","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"1 XP","color":"green","bold":false}]'}} 1
+replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:4,display:{Name:'[{"text":"Potion of Healing","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"3 XP","color":"green","bold":false}]'}} 1
 #Regeneration
 replaceitem entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:3,display:{Name:'[{"text":"Potion of Regeneration","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"5 XP","color":"green","bold":false}]'}} 1
 #Swiftness
