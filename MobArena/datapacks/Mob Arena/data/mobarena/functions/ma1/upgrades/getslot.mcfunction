@@ -1,12 +1,6 @@
 ##Reset drop score to prevent spamming
 scoreboard players reset @s upgrade.drop
 
-##Might wanna move this..
-#scoreboard players set @s upgrade.page 0
-
-##???
-#scoreboard players set #upgradebool upgrade.select 0
-
 ##Set upgrade.select to the value of the selected inventory slot
 execute unless data entity @s Inventory[{Slot:0b}] run scoreboard players set @s upgrade.select 0
 execute unless data entity @s Inventory[{Slot:1b}] run scoreboard players set @s upgrade.select 1

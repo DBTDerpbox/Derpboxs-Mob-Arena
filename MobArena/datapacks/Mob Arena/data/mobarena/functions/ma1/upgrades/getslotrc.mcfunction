@@ -3,12 +3,6 @@
 ##Reset drop score to prevent spamming
 scoreboard players reset @s upgrade.rclick
 
-##Might wanna move this..
-#scoreboard players set @s upgrade.page 0
-
-##???
-#scoreboard players set #upgradebool upgrade.select 0
-
 ##Set upgrade.select to the value of the selected inventory slot
 execute as @s[nbt={SelectedItemSlot:0}] run scoreboard players set @s upgrade.select 0
 execute as @s[nbt={SelectedItemSlot:1}] run scoreboard players set @s upgrade.select 1
