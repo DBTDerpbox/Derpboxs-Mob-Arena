@@ -5,11 +5,21 @@
   },
 
   "overrides": [
-    {"predicate": {"custom_model_data":1}, "model": "item/ma1/upgrade_diamond_sword"},
-    {"predicate": {"custom_model_data":2}, "model": "item/ma1/upgrade_bow"},
-    {"predicate": {"custom_model_data":3}, "model": "item/ma1/upgrade_crossbow"},
-    {"predicate": {"custom_model_data":4}, "model": "item/ma1/upgrade_arrow"},
+    {"predicate": {"custom_model_data":1}, "model": "item/ma1/weapon/upgrade_diamond_sword"},
+    {"predicate": {"custom_model_data":2}, "model": "item/ma1/weapon/upgrade_bow"},
+    {"predicate": {"custom_model_data":3}, "model": "item/ma1/weapon/upgrade_crossbow"},
+    {"predicate": {"custom_model_data":4}, "model": "item/ma1/weapon/upgrade_arrow"},
     {"predicate": {"custom_model_data":5}, "model": "item/upgrade_back"},
-    {"predicate": {"custom_model_data":6}, "model": "item/upgrade_weapons"}
+    {"predicate": {"custom_model_data":6}, "model": "item/ma1/upgrade_weapons"},
+    {"predicate": {"custom_model_data":7}, "model": "item/ma1/food/apple"},
+    {"predicate": {"custom_model_data":8}, "model": "item/ma1/food/steak"},
+    {"predicate": {"custom_model_data":9}, "model": "item/ma1/food/golden_carrot"},
+    {"predicate": {"custom_model_data":10}, "model": "item/ma1/food/golden_apple"},
+    {"predicate": {"custom_model_data":11}, "model": "item/ma1/upgrade_food"},
+    {"predicate": {"custom_model_data":12}, "model": "item/ma1/effect/healing"},
+    {"predicate": {"custom_model_data":13}, "model": "item/ma1/effect/regeneration"},
+    {"predicate": {"custom_model_data":14}, "model": "item/ma1/effect/swiftness"},
+    {"predicate": {"custom_model_data":15}, "model": "item/ma1/effect/turtle_master"},
+    {"predicate": {"custom_model_data":16}, "model": "item/ma1/upgrade_effect"}
   ]
 }
