@@ -4,8 +4,8 @@ function mobarena:ma1/upgrades/pages/effect/open
 ##Give the user instant health 2
 effect give @s minecraft:instant_health 1 1
 
-##remove 1 level of xp
-xp add @s -1 levels
+##remove 3 level of xp
+xp add @s -3 levels
 
 ##Play villager sound
 execute at @s run playsound minecraft:entity.villager.yes neutral @s ~ ~ ~ 100
