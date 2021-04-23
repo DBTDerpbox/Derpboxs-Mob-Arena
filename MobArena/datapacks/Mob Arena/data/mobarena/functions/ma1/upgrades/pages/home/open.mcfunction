@@ -8,9 +8,9 @@ scoreboard players set @s upgrade.page 0
 #Tool - Diamond Sword
 replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:6,display:{Name:'{"text":"Weapons","color":"aqua","bold":true,"italic":false}'}} 1
 #Food - Apple?
-replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:6,display:{Name:'{"text":"Food","color":"aqua","bold":true,"italic":false}'}} 1
+replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:11,display:{Name:'{"text":"Food","color":"aqua","bold":true,"italic":false}'}} 1
 #Effects i assume
-replaceitem entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:6,display:{Name:'{"text":"Effects","color":"aqua","bold":true,"italic":false}'}} 1
+replaceitem entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:16,display:{Name:'{"text":"Effects","color":"aqua","bold":true,"italic":false}'}} 1
 #Armor i assume
 replaceitem entity @s hotbar.5 diamond_helmet{UpgradeMenu:1} 1
 #i dont know
