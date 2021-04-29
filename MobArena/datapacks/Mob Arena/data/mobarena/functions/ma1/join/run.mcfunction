@@ -23,7 +23,7 @@ tellraw @a ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"selector":"
 team join MA1
 
 ##Start game timer
-function mobarena:ma1/start/starttimer
+function mobarena:ma1/start/timer/start
 
 ##Debug message
 tellraw @a[tag=debug] ["",{"text":"[Debug] ","bold":true,"color":"red"},{"text":"MA1 join run file executed as ","color":"gold"},{"selector":"@s","color":"yellow"},{"text":".","color":"gold"}]
