@@ -1,6 +1,7 @@
 ##Picks a mob to spawn depending on the area_effect_cloud running this function
 #Zombie
-execute as @s[tag=MA1Zombie] run function mobarena:ma1/spawn/enemy/zombie/prep
+function mobarena:ma1/spawn/enemy/zombie/prep
+#execute as @s[tag=MA1Zombie] run function mobarena:ma1/spawn/enemy/zombie/prep
 #Skeleton
 #execute as @s[tag=MA1Skeleton] run function mobarena:ma1/spawn/enemy/skeleton/prep
 #Creeper?
