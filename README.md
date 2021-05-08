@@ -4,7 +4,7 @@ Mob Arena is a game with multiple arenas where you fight waves of mobs with a tw
 
 ![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-80ba42?style=for-the-badge) ![License](https://img.shields.io/github/license/DBTDerpbox/derpboxs-mob-arena?style=for-the-badge) ![Last Commit](https://img.shields.io/github/last-commit/dbtderpbox/derpboxs-mob-arena/orphan-arena?style=for-the-badge)
 
-[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com) ![orphans](https://img.shields.io/badge/orphans-obliterated-f3a2a0?style=for-the-badge)
 
 I fixed mob arena
 
