@@ -10,11 +10,11 @@ replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomM
 #Arrow
 replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:4,display:{Name:'[{"text":"Arrow","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"1 XP","color":"green","bold":false}]'}} 1
 #Crossbow
-replaceitem entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:3,display:{Name:'[{"text":"Crossbow","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"10 XP","color":"green","bold":false}]'}} 1
+function mobarena:ma1/upgrades/pages/tool/buy/crossbow/open
 #Bow
-replaceitem entity @s hotbar.5 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:2,display:{Name:'[{"text":"Bow","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"7 XP","color":"green","bold":false}]'}} 1
+function mobarena:ma1/upgrades/pages/tool/buy/bow/open
 #Diamond Sword
-replaceitem entity @s hotbar.4 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:1,display:{Name:'[{"text":"Diamond Sword","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"13 XP","color":"green","bold":false}]'}} 1
+function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/open
 
 scoreboard players set @s upgrade.select -1
 

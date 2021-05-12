@@ -14,7 +14,7 @@ replaceitem entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomM
 #Golden Carrot
 replaceitem entity @s hotbar.5 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:9,display:{Name:'[{"text":"Golden Carrot","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"8 XP","color":"green","bold":false}]'}} 1
 #Golden Apple
-replaceitem entity @s hotbar.4 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:10,display:{Name:'[{"text":"Golden Apple","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"13 XP","color":"green","bold":false}]'}} 1
+replaceitem entity @s hotbar.4 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:10,display:{Name:'[{"text":"Enchanted Golden Apple","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"13 XP","color":"green","bold":false}]'},Enchantments:[{}]} 1
 
 scoreboard players set @s upgrade.select -1
 

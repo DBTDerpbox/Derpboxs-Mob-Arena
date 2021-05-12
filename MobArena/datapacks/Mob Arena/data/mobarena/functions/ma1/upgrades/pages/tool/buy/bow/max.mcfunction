@@ -5,4 +5,4 @@ function mobarena:ma1/upgrades/pages/tool/open
 execute at @s run playsound minecraft:entity.villager.no neutral @s ~ ~ ~ 100
 
 ##Inform the user that they alerady bought this item
-tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"You already have this item!","color":"red"}]
+tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"This item has been maxed out!","color":"red"}]
