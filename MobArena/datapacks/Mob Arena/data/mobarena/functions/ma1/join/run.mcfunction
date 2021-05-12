@@ -10,6 +10,9 @@ spawnpoint @s 5003 22 5008
 ##Scores
 function mobarena:ma1/setup/scores
 
+##Preset XP
+xp set @s 30 levels
+
 ##Inventory Setup
 #Items
 function mobarena:ma1/setup/inventory/items
