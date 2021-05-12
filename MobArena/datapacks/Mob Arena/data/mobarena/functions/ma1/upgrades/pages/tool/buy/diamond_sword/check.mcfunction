@@ -1,8 +1,20 @@
-##If user already has diamond sword, deny access to the item
-execute as @s[tag=hasdiamondsword] run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/has
+##If user already has maxed out the diamond sword, deny access to the item
+execute if score @s ma1.upgradesword matches 6 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/max
 
-##If XP level is below 13, deny access to the item
-execute as @s[level=..12,tag=!hasdiamondsword] run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/deny
+##Sharpness 5
+execute if score @s ma1.upgradesword matches 5 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/sharp5/check
 
-##If XP level is above 13, buy the item
-execute as @s[level=13..,tag=!hasdiamondsword] run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/give
+##Sharpness 4
+execute if score @s ma1.upgradesword matches 4 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/sharp4/check
+
+##Sharpness 3
+execute if score @s ma1.upgradesword matches 3 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/sharp3/check
+
+##Sharpness 2
+execute if score @s ma1.upgradesword matches 2 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/sharp2/check
+
+##Sharpness 1
+execute if score @s ma1.upgradesword matches 1 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/sharp1/check
+
+##Unenchanted
+execute if score @s ma1.upgradesword matches 0 run function mobarena:ma1/upgrades/pages/tool/buy/diamond_sword/main/check

@@ -1,5 +1,11 @@
-##If XP level is below 7, deny access to the item
-execute as @s[level=..6] run function mobarena:ma1/upgrades/pages/tool/buy/bow/deny
+##Maxed out
+execute if score @s ma1.upgradebow matches 3 run function mobarena:ma1/upgrades/pages/tool/buy/bow/max
 
-##If XP level is above 7, buy the item
-execute as @s[level=7..] run function mobarena:ma1/upgrades/pages/tool/buy/bow/give
+##Power 3
+execute if score @s ma1.upgradebow matches 2 run function mobarena:ma1/upgrades/pages/tool/buy/bow/power/check
+
+##Punch 1
+execute if score @s ma1.upgradebow matches 1 run function mobarena:ma1/upgrades/pages/tool/buy/bow/punch/check
+
+##Unenchanted
+execute if score @s ma1.upgradebow matches 0 run function mobarena:ma1/upgrades/pages/tool/buy/bow/main/check
