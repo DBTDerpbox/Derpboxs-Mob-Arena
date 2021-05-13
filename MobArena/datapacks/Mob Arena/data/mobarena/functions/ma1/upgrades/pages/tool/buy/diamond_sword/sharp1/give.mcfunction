@@ -5,7 +5,7 @@ function mobarena:ma1/upgrades/pages/tool/open
 clear @s diamond_sword{ma1sword:1}
 
 ##Give the user 1 diamond sword
-give @s diamond_sword{Unbreakable:1b,noDrop:1,ma1sword:2,Enchantments:[{id:"minecraft:sharpness",lvl:1s}]} 1
+give @s diamond_sword{Unbreakable:1b,noDrop:1,ma1sword:2,Enchantments:[{id:"minecraft:sharpness",lvl:2s}]} 1
 
 ##Mark the user for buying a diamond sword
 scoreboard players add @s ma1.upgradesword 1
@@ -20,4 +20,4 @@ execute at @s run playsound minecraft:entity.villager.yes neutral @s ~ ~ ~ 100
 function mobarena:ma1/upgrades/pages/tool/open
 
 ##Inform the user that they have received their item
-tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"Purchased ","color":"green"},{"text":"Sharpness 1","color":"gold"},{"text":" for ","color":"green"},{"text":"6 XP Levels","color":"dark_green"},{"text":"!","color":"green"}]
+tellraw @s ["",{"text":"[Mob Arena] ","bold":true,"color":"green"},{"text":"Purchased ","color":"green"},{"text":"Sharpness 2","color":"gold"},{"text":" for ","color":"green"},{"text":"6 XP Levels","color":"dark_green"},{"text":"!","color":"green"}]
