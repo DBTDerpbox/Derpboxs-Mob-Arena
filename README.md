@@ -24,6 +24,8 @@ Mob Arena is currently in alpha! There is not much content yet, but a lot is pla
 
 Mob Arena is currently designed for [Minecraft Java Edition 1.16.2](https://www.minecraft.net/en-us/article/minecraft-java-edition-1-16-2)
 
+This branch is barley being touched, please check out the [testing branch](https://github.com/DBTDerpbox/Derpboxs-Mob-Arena/tree/testing) instead!
+
 ## Authors
 
 * **Derpbox** - *Datapack Developer* - [Derpbox](https://github.com/dbtderpbox)
