@@ -6,15 +6,15 @@ scoreboard players set @s upgrade.page 0
 
 ##Put items in hotbar
 #Tool - Diamond Sword
-item replace entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:6,display:{Name:'{"text":"Weapons","color":"aqua","bold":true,"italic":false}'}} with 1
+item replace entity @s hotbar.8 with minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:6,display:{Name:'{"text":"Weapons","color":"aqua","bold":true,"italic":false}'}} 1
 #Food - Apple?
-item replace entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:11,display:{Name:'{"text":"Food","color":"aqua","bold":true,"italic":false}'}} with 1
+item replace entity @s hotbar.7 with minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:11,display:{Name:'{"text":"Food","color":"aqua","bold":true,"italic":false}'}} 1
 #Effects i assume
-item replace entity @s hotbar.6 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:16,display:{Name:'{"text":"Effects","color":"aqua","bold":true,"italic":false}'}} with 1
+item replace entity @s hotbar.6 with minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:16,display:{Name:'{"text":"Effects","color":"aqua","bold":true,"italic":false}'}} 1
 #Armor i assume
-item replace entity @s hotbar.5 diamond_helmet{UpgradeMenu:1} with 1
+item replace entity @s hotbar.5 with diamond_helmet{UpgradeMenu:1} 1
 #i dont know
-item replace entity @s hotbar.4 zombie_head{UpgradeMenu:1} with 1
+item replace entity @s hotbar.4 with zombie_head{UpgradeMenu:1} 1
 
 scoreboard players set @s upgrade.select -1
 
