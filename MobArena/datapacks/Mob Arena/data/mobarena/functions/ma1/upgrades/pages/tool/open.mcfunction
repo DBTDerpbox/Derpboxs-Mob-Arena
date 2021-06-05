@@ -6,9 +6,9 @@ scoreboard players set @s upgrade.page 1
 
 ##Put items in hotbar
 #Go Back
-replaceitem entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:5,display:{Name:'{"text":"Go Back","color":"red","bold":true,"italic":false}'}} 1
+item replace entity @s hotbar.8 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:5,display:{Name:'{"text":"Go Back","color":"red","bold":true,"italic":false}'}} with 1
 #Arrow
-replaceitem entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:4,display:{Name:'[{"text":"Arrow","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"1 XP","color":"green","bold":false}]'}} 1
+item replace entity @s hotbar.7 minecraft:carrot_on_a_stick{UpgradeMenu:1,CustomModelData:4,display:{Name:'[{"text":"Arrow","color":"gold","bold":true,"italic":false},{"text":" | ","color":"gray","bold":false},{"text":"1 XP","color":"green","bold":false}]'}} with 1
 #Crossbow
 function mobarena:ma1/upgrades/pages/tool/buy/crossbow/open
 #Bow
